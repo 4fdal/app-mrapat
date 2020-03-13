@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:elevation="2dp"
+    android:layout_marginHorizontal="5dp"
+    android:layout_marginVertical="10dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/crl_namaRaker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NAMA RAKER" />
+
+        <TextView
+            android:id="@+id/crl_waktuRaker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WAKTU RAKER" />
+
+        <TextView
+            android:text="TEMPAT RAKER"
+            android:id="@+id/crl_ruanganRaker"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
